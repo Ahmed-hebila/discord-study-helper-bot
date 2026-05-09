@@ -1,0 +1,7 @@
+discord.py
+python-dotenv
+youtube-transcript-api
+google-generativeai
+google-api-python-client
+yt-dlp
+flask
