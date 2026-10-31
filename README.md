@@ -2,6 +2,12 @@
 
 A Discord bot that turns a public YouTube playlist into a daily study course. It sends one video at a time, creates a multiple-choice quiz from the video's transcript with Gemini, and stores each learner's progress in SQLite.
 
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![discord.py](https://img.shields.io/badge/discord.py-5865F2?logo=discord&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?logo=googlegemini&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
+![YouTube API](https://img.shields.io/badge/YouTube%20API-FF0000?logo=youtube&logoColor=white)
+
 ## How it works
 
 1. Run `/start_course` with a public YouTube playlist URL.
@@ -51,3 +57,8 @@ python main.py
 ```
 
 Keep API keys and bot tokens private. The bot needs network access to Discord, YouTube, and Gemini. Playlists should be public; quiz generation depends on video transcripts being available.
+
+## Author
+
+**Ahmed Hebila** — Flutter & Node.js developer
+[Portfolio](https://ahmedhebila.vercel.app) · [LinkedIn](https://www.linkedin.com/in/ahmed-hebila) · [GitHub](https://github.com/Ahmed-hebila)
